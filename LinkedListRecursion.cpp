@@ -14,7 +14,7 @@ void recursivePrint(struct Node *p)
     if (p == NULL)
         return;
     printf("%d ", p->data);
-    Print(p->next);
+    recursivePrint(p->next);
 }
 
 struct Node *Insert(Node *head, int data)
