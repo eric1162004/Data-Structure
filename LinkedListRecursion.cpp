@@ -9,7 +9,7 @@ struct Node
     struct Node *next;
 };
 
-void Print(struct Node *p)
+void recursivePrint(struct Node *p)
 {
     if (p == NULL)
         return;
@@ -39,15 +39,15 @@ int main()
 {
     struct Node *head = NULL;
     head = Insert(head, 2);
-    Print(head);
+    recursivePrint(head);
     printf("\n");
     head = Insert(head, 3);
-    Print(head);
+    recursivePrint(head);
     printf("\n");
     head = Insert(head, 4);
-    Print(head);
+    recursivePrint(head);
     printf("\n");
     head = Insert(head, 5);
-    Print(head);
+    recursivePrint(head);
     printf("\n");
 }
