@@ -11,7 +11,6 @@ bool hasHigherPres(char operator1, char operator2);
 bool IsOperator(char C);
 bool IsDigit(char C);
 int getPrec(char op);
-
 string InfixToPostfix(string EXP);
 
 int main()
