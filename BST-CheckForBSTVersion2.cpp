@@ -54,6 +54,7 @@ bool IsBSTUtil(BstNode *root, int minVal, int maxVal)
 //pass the root node to IsBSTUtil()
 bool IsBST(BstNode *root)
 {
+    //maximum or minimum limit value
     return (IsBSTUtil(root, INT_MIN, INT_MAX));
 }
 
