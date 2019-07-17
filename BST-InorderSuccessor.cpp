@@ -113,7 +113,7 @@ int main()
     rootPtr = Insert(rootPtr, 9);
     rootPtr = Insert(rootPtr, 11);
 
-    cout << "This is the Binary Search Tree in in-order: \n";
+    cout << "This is the In-order Binary Search Tree in: \n";
     InOrder(rootPtr);
 
     int BSTvalue = 8;
